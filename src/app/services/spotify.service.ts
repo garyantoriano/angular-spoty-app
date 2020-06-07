@@ -12,7 +12,8 @@ export class SpotifyService {
 
   constructor(private http: HttpClient) {
     console.log('Spotify Service started');
-    this.utilsRestApi = 'http://localhost:3000';
+    // A rest-api utility
+    this.utilsRestApi = 'https://rest-api-utils.herokuapp.com/';
     this.spotifyUrl = 'https://api.spotify.com/v1';
   }
 
